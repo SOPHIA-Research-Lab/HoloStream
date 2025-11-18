@@ -1,4 +1,4 @@
-## Holostream Project
+# Holostream Project
 
 Holostream is a software application designed for processing off-axis DHM holograms, offering both serial and parallel versions for improved performance.
 
@@ -19,7 +19,8 @@ Other_codes/: This folder contains both the serial and parallelized SHPC codes i
 Examples/: This folder contains different holograms obtained and used for the development of this app, along with the expected results.
 
 ## Requirements
-# General
+
+### General
 
 64-bit Windows 10 or 11 for the precompiled executables.
 
@@ -49,7 +50,7 @@ A GUI toolkit such as PyQt5 / PySide (if you run the graphical interface).
 
 You can install the required packages with pip or conda. The minimal set of imports can be checked directly from the scripts in Serial_version/Python_codes/.
 
-Parallel (GPU) version (Python)
+### Parallel (GPU) version (Python)
 
 To run the Parallel_version/Python_codes/ implementation you additionally need:
 
@@ -67,7 +68,7 @@ Note: Exact package versions may depend on your system. If you run into import o
 
 You can use Holostream either via the precompiled Windows executables or directly from the Python source codes.
 
-# 1. Using the Windows executables (recommended for most users)
+### 1. Using the Windows executables (recommended for most users)
 
 Serial version
 
@@ -91,7 +92,7 @@ Make sure you have an NVIDIA GPU with CUDA installed and up to date.
 
 Run the main .exe file to start the GPU-accelerated Holostream app.
 
-# 2. Running from Python source
+### 2. Running from Python source
 
 Serial version
 
@@ -128,7 +129,7 @@ Run the main script of the parallel version, for example:
 
 python your_parallel_main_script.py
 
-# 3. Using the example holograms
+### 3. Using the example holograms
 
 Go to the Examples/ folder and choose one of the provided holograms.
 
